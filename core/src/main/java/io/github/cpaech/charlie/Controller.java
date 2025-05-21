@@ -16,10 +16,12 @@ public class Controller {
         // For example, textures, sounds, etc.
     }
     public modelwerteInitialisieren(){
-        model.PaddleA = new.Rectangle;
-        model.PaddleB = new.Rectangle;
-        model.Ball = new.Rectangle;
-        model.BallVelocity = new.Vector2;
+        model.paddleA.setSize(20, 100);
+        model.paddleB.setSize(20, 100);
+        model.paddleA.setPosition(0.0f, 600.0f / 2.0f - (paddleA.height / 2.0f));
+        model.paddleB.setPosition(800.0f - (paddleB.width), 600.0f / 2.0f - (paddleB.height / 2.0f));
+        model.ball.setSize(20, 20);
+        model.ball.setPosition(400.0f, 300.0f);
         model.ScoreA = 0;
         model.ScoreB = 0;
     }
