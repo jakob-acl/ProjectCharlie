@@ -15,5 +15,13 @@ public class Controller {
         // Dispose of any resources that need to be cleaned up
         // For example, textures, sounds, etc.
     }
+    public modelwerteInitialisieren(){
+        model.PaddleA = new.Rectangle;
+        model.PaddleB = new.Rectangle;
+        model.Ball = new.Rectangle;
+        model.BallVelocity = new.Vector2;
+        model.ScoreA = 0;
+        model.ScoreB = 0;
+    }
 
 }
