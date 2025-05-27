@@ -22,6 +22,7 @@ public class View {
     //later a refernce to the controller might be needed to handle user input from buttons (difficult because circular refernce).
 
     public View(Model model) {
+        batch = new SpriteBatch(); //SpriteBatch. Necessary to draw things to the screen
         this.model = model;
         paddleTexture = new Texture("libgdx.png");
         ballTexture = new Texture("libgdx.png");    //using the same texture for the ball, just to keep it simple.
